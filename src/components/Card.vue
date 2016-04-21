@@ -119,7 +119,7 @@ export default {
   overflow: hidden;
   text-overflow:ellipsis
 }
-@media screen and (min-width:768px) {
+@media screen and (min-device-width:768px) {
   .card {
     font-size: 1.5vw;
     width: 25vw;
