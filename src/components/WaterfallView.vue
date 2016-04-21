@@ -80,7 +80,7 @@ export default {
   .item-move {
     transition: transform .5s cubic-bezier(.55,0,.1,1);
   }
-  @media screen and (min-width:768px) {
+  @media screen and (min-device-width:768px) {
     ul {
       width: 60vw;
     }
