@@ -42,14 +42,14 @@ export default {
   methods: {
     addItems () {
       let self = this
-      getPostData('/static/data.json').then((list) => {
+      getPostData('static/data.json').then((list) => {
         self.loading = false
         self.list.push.apply(self.list, list)
       })
     }
   },
   asyncData () {
-    return getPostData('/static/data.json').then((list) => {
+    return getPostData('static/data.json').then((list) => {
       return {
         list: list
       }
