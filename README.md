@@ -1,5 +1,7 @@
 # 专题页
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Zhangdroid/waterfall-layout.svg)](https://greenkeeper.io/)
+
 > A Vue.js project
 
 ## Build Setup
